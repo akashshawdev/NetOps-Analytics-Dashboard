@@ -1,0 +1,9 @@
+incident_type,count,avg_mttr_min
+Interface Error Rate High,17,225.2
+MTU Mismatch,15,153.0
+Packet Loss Detected,14,257.5
+BGP Route Flap,13,180.3
+DDoS Suspected,13,159.3
+Link Down,11,228.6
+Firewall CPU Overload,10,212.8
+High Latency Spike,6,237.7

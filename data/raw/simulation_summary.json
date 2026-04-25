@@ -1,0 +1,17 @@
+{
+  "simulation_run": "2026-04-25 14:47:18",
+  "period_days": 30,
+  "regions": [
+    "us-east-1",
+    "eu-west-1",
+    "ap-southeast-1",
+    "us-west-2",
+    "eu-central-1"
+  ],
+  "total_metric_rows": 3600,
+  "total_devices": 20,
+  "total_incidents": 99,
+  "avg_latency_ms": 32.47,
+  "avg_packet_loss": 0.343,
+  "avg_uptime_pct": 99.476
+}

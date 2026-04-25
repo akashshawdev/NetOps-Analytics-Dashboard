@@ -1,0 +1,15 @@
+{
+  "pipeline_run": "2026-04-25 14:47:23",
+  "elapsed_seconds": 0.27,
+  "files_generated": [
+    "metrics_clean.csv",
+    "metrics_hourly.csv",
+    "metrics_daily.csv",
+    "uptime_clean.csv",
+    "uptime_by_region.csv",
+    "incidents_clean.csv",
+    "incidents_daily.csv",
+    "incidents_by_region.csv",
+    "incident_types.csv"
+  ]
+}

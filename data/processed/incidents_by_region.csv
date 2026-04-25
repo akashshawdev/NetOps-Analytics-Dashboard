@@ -1,0 +1,6 @@
+region,total_incidents,avg_mttr_min,critical_count
+ap-southeast-1,18,220.4,1
+eu-central-1,21,205.2,2
+eu-west-1,16,155.7,4
+us-east-1,19,211.1,2
+us-west-2,25,217.3,5

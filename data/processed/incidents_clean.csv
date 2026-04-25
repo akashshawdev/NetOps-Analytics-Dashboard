@@ -1,0 +1,100 @@
+incident_id,timestamp,resolved_at,region,device,incident_type,severity,mttr_minutes,status,date,hour,day_of_week,severity_score
+INC-1000,2025-03-02 18:17:00,2025-03-02 21:11:00,eu-central-1,router-05,Link Down,Medium,174,Resolved,2025-03-02,18,Sunday,2
+INC-1001,2025-03-03 10:06:00,2025-03-03 11:03:00,ap-southeast-1,router-03,MTU Mismatch,High,57,Resolved,2025-03-03,10,Monday,3
+INC-1002,2025-03-03 19:16:00,2025-03-03 21:44:00,us-east-1,router-01,Firewall CPU Overload,Medium,148,Resolved,2025-03-03,19,Monday,2
+INC-1003,2025-03-03 02:35:00,2025-03-03 03:53:00,eu-central-1,switch-core-05,Interface Error Rate High,High,78,Resolved,2025-03-03,2,Monday,3
+INC-1004,2025-03-03 01:42:00,2025-03-03 02:20:00,eu-central-1,firewall-05,DDoS Suspected,High,38,Resolved,2025-03-03,1,Monday,3
+INC-1005,2025-03-03 12:17:00,2025-03-03 16:00:00,us-east-1,lb-01,Interface Error Rate High,Low,223,Resolved,2025-03-03,12,Monday,1
+INC-1006,2025-03-04 08:44:00,2025-03-04 12:35:00,ap-southeast-1,router-03,Link Down,Medium,231,Resolved,2025-03-04,8,Tuesday,2
+INC-1007,2025-03-04 14:24:00,2025-03-04 16:05:00,eu-central-1,switch-core-05,BGP Route Flap,Medium,101,Resolved,2025-03-04,14,Tuesday,2
+INC-1008,2025-03-04 07:52:00,2025-03-04 10:49:00,ap-southeast-1,router-03,Interface Error Rate High,Low,177,Resolved,2025-03-04,7,Tuesday,1
+INC-1009,2025-03-05 06:41:00,2025-03-05 07:11:00,ap-southeast-1,lb-03,MTU Mismatch,Critical,30,Resolved,2025-03-05,6,Wednesday,4
+INC-1010,2025-03-05 07:47:00,2025-03-05 08:34:00,us-west-2,switch-core-04,MTU Mismatch,High,47,Resolved,2025-03-05,7,Wednesday,3
+INC-1011,2025-03-05 04:32:00,2025-03-05 06:28:00,eu-central-1,lb-05,Packet Loss Detected,Medium,116,Resolved,2025-03-05,4,Wednesday,2
+INC-1012,2025-03-05 20:10:00,2025-03-06 00:46:00,us-east-1,lb-01,Packet Loss Detected,Low,276,Resolved,2025-03-05,20,Wednesday,1
+INC-1013,2025-03-05 16:16:00,2025-03-05 19:15:00,us-west-2,router-04,Packet Loss Detected,Medium,179,Resolved,2025-03-05,16,Wednesday,2
+INC-1014,2025-03-06 03:18:00,2025-03-06 11:06:00,ap-southeast-1,lb-03,Link Down,Low,468,Resolved,2025-03-06,3,Thursday,1
+INC-1015,2025-03-06 16:48:00,2025-03-06 17:14:00,us-west-2,firewall-04,Packet Loss Detected,Critical,26,Resolved,2025-03-06,16,Thursday,4
+INC-1016,2025-03-06 19:12:00,2025-03-07 05:51:00,ap-southeast-1,firewall-03,Interface Error Rate High,Low,639,Resolved,2025-03-06,19,Thursday,1
+INC-1017,2025-03-06 16:58:00,2025-03-06 21:17:00,eu-west-1,router-02,Interface Error Rate High,Medium,259,Resolved,2025-03-06,16,Thursday,2
+INC-1018,2025-03-06 09:15:00,2025-03-06 09:48:00,us-west-2,router-04,BGP Route Flap,Critical,33,Resolved,2025-03-06,9,Thursday,4
+INC-1019,2025-03-06 23:31:00,2025-03-07 02:58:00,eu-central-1,router-05,Link Down,Low,207,Resolved,2025-03-06,23,Thursday,1
+INC-1020,2025-03-07 08:33:00,2025-03-07 13:22:00,us-west-2,lb-04,BGP Route Flap,Low,289,Resolved,2025-03-07,8,Friday,1
+INC-1021,2025-03-07 22:19:00,2025-03-08 03:44:00,eu-central-1,lb-05,Interface Error Rate High,Low,325,Resolved,2025-03-07,22,Friday,1
+INC-1022,2025-03-07 03:15:00,2025-03-07 12:57:00,us-west-2,firewall-04,Packet Loss Detected,Low,582,Resolved,2025-03-07,3,Friday,1
+INC-1023,2025-03-08 18:14:00,2025-03-08 20:12:00,us-east-1,router-01,Packet Loss Detected,Medium,118,Resolved,2025-03-08,18,Saturday,2
+INC-1024,2025-03-08 10:04:00,2025-03-08 10:38:00,us-east-1,firewall-01,DDoS Suspected,High,34,Resolved,2025-03-08,10,Saturday,3
+INC-1025,2025-03-09 18:36:00,2025-03-09 22:41:00,eu-west-1,lb-02,BGP Route Flap,Medium,245,Resolved,2025-03-09,18,Sunday,2
+INC-1026,2025-03-09 03:06:00,2025-03-09 08:20:00,us-west-2,lb-04,Interface Error Rate High,Low,314,Resolved,2025-03-09,3,Sunday,1
+INC-1027,2025-03-09 23:03:00,2025-03-10 03:44:00,us-west-2,router-04,High Latency Spike,Medium,281,Resolved,2025-03-09,23,Sunday,2
+INC-1028,2025-03-10 07:12:00,2025-03-10 11:03:00,ap-southeast-1,firewall-03,Firewall CPU Overload,Low,231,Resolved,2025-03-10,7,Monday,1
+INC-1029,2025-03-10 14:15:00,2025-03-10 16:26:00,eu-west-1,router-02,Firewall CPU Overload,Medium,131,Resolved,2025-03-10,14,Monday,2
+INC-1030,2025-03-10 00:05:00,2025-03-10 00:49:00,eu-central-1,firewall-05,Link Down,Critical,44,Resolved,2025-03-10,0,Monday,4
+INC-1031,2025-03-10 12:57:00,2025-03-10 14:51:00,us-west-2,router-04,Link Down,Medium,114,Resolved,2025-03-10,12,Monday,2
+INC-1032,2025-03-10 08:59:00,2025-03-10 09:33:00,us-west-2,lb-04,DDoS Suspected,Critical,34,Resolved,2025-03-10,8,Monday,4
+INC-1033,2025-03-11 04:12:00,2025-03-11 07:16:00,eu-central-1,switch-core-05,BGP Route Flap,Medium,184,Resolved,2025-03-11,4,Tuesday,2
+INC-1034,2025-03-11 01:47:00,2025-03-11 05:05:00,us-east-1,switch-core-01,High Latency Spike,Medium,198,Resolved,2025-03-11,1,Tuesday,2
+INC-1035,2025-03-11 16:10:00,2025-03-11 19:18:00,us-east-1,router-01,Packet Loss Detected,Medium,188,Resolved,2025-03-11,16,Tuesday,2
+INC-1036,2025-03-11 21:55:00,2025-03-11 22:09:00,eu-west-1,firewall-02,MTU Mismatch,Critical,14,Resolved,2025-03-11,21,Tuesday,4
+INC-1037,2025-03-11 07:37:00,2025-03-11 19:20:00,us-east-1,router-01,Packet Loss Detected,Low,703,Resolved,2025-03-11,7,Tuesday,1
+INC-1038,2025-03-12 08:13:00,2025-03-12 10:33:00,eu-central-1,switch-core-05,BGP Route Flap,Medium,140,Resolved,2025-03-12,8,Wednesday,2
+INC-1039,2025-03-12 20:19:00,2025-03-13 00:10:00,ap-southeast-1,lb-03,Interface Error Rate High,Medium,231,Resolved,2025-03-12,20,Wednesday,2
+INC-1040,2025-03-12 02:34:00,2025-03-12 02:50:00,us-east-1,firewall-01,DDoS Suspected,Critical,16,Resolved,2025-03-12,2,Wednesday,4
+INC-1041,2025-03-12 07:23:00,2025-03-12 10:33:00,eu-west-1,switch-core-02,Link Down,Low,190,Resolved,2025-03-12,7,Wednesday,1
+INC-1042,2025-03-12 19:51:00,2025-03-13 03:00:00,us-west-2,router-04,DDoS Suspected,Low,429,Resolved,2025-03-12,19,Wednesday,1
+INC-1043,2025-03-13 23:35:00,2025-03-14 00:18:00,eu-west-1,firewall-02,DDoS Suspected,High,43,Resolved,2025-03-13,23,Thursday,3
+INC-1044,2025-03-13 10:13:00,2025-03-13 14:16:00,ap-southeast-1,switch-core-03,Firewall CPU Overload,Medium,243,Resolved,2025-03-13,10,Thursday,2
+INC-1045,2025-03-14 08:02:00,2025-03-14 08:39:00,us-east-1,router-01,Interface Error Rate High,Critical,37,Resolved,2025-03-14,8,Friday,4
+INC-1046,2025-03-14 05:47:00,2025-03-14 07:54:00,eu-west-1,lb-02,MTU Mismatch,Medium,127,Resolved,2025-03-14,5,Friday,2
+INC-1047,2025-03-14 22:57:00,2025-03-14 23:11:00,eu-central-1,firewall-05,High Latency Spike,Critical,14,Resolved,2025-03-14,22,Friday,4
+INC-1048,2025-03-14 13:08:00,2025-03-14 14:45:00,ap-southeast-1,router-03,DDoS Suspected,Medium,97,Resolved,2025-03-14,13,Friday,2
+INC-1049,2025-03-15 21:15:00,2025-03-16 02:50:00,us-east-1,router-01,Interface Error Rate High,Low,335,Resolved,2025-03-15,21,Saturday,1
+INC-1050,2025-03-15 19:47:00,2025-03-16 04:43:00,eu-central-1,firewall-05,BGP Route Flap,Low,536,Resolved,2025-03-15,19,Saturday,1
+INC-1051,2025-03-16 05:47:00,2025-03-16 08:12:00,eu-west-1,switch-core-02,MTU Mismatch,Low,145,Resolved,2025-03-16,5,Sunday,1
+INC-1052,2025-03-17 03:24:00,2025-03-17 05:23:00,ap-southeast-1,router-03,Firewall CPU Overload,High,119,Resolved,2025-03-17,3,Monday,3
+INC-1053,2025-03-17 11:19:00,2025-03-17 12:47:00,eu-west-1,firewall-02,BGP Route Flap,High,88,Resolved,2025-03-17,11,Monday,3
+INC-1054,2025-03-17 10:17:00,2025-03-17 12:59:00,us-east-1,router-01,DDoS Suspected,Medium,162,Resolved,2025-03-17,10,Monday,2
+INC-1055,2025-03-18 17:21:00,2025-03-18 21:56:00,eu-central-1,router-05,Packet Loss Detected,Medium,275,Resolved,2025-03-18,17,Tuesday,2
+INC-1056,2025-03-18 01:06:00,2025-03-18 02:09:00,ap-southeast-1,lb-03,Interface Error Rate High,High,63,Resolved,2025-03-18,1,Tuesday,3
+INC-1057,2025-03-18 03:24:00,2025-03-18 06:34:00,ap-southeast-1,firewall-03,DDoS Suspected,Medium,190,Resolved,2025-03-18,3,Tuesday,2
+INC-1058,2025-03-18 16:59:00,2025-03-18 17:59:00,us-east-1,firewall-01,Interface Error Rate High,Medium,60,Resolved,2025-03-18,16,Tuesday,2
+INC-1059,2025-03-19 19:20:00,2025-03-20 02:58:00,us-east-1,router-01,DDoS Suspected,Low,458,Resolved,2025-03-19,19,Wednesday,1
+INC-1060,2025-03-19 10:25:00,2025-03-19 13:09:00,eu-central-1,switch-core-05,Link Down,Medium,164,Resolved,2025-03-19,10,Wednesday,2
+INC-1061,2025-03-19 12:43:00,2025-03-19 17:43:00,eu-west-1,firewall-02,DDoS Suspected,Medium,300,Resolved,2025-03-19,12,Wednesday,2
+INC-1062,2025-03-19 09:18:00,2025-03-19 10:18:00,us-west-2,firewall-04,MTU Mismatch,Medium,60,Resolved,2025-03-19,9,Wednesday,2
+INC-1063,2025-03-19 14:28:00,2025-03-19 16:50:00,eu-central-1,lb-05,BGP Route Flap,Medium,142,Resolved,2025-03-19,14,Wednesday,2
+INC-1064,2025-03-20 21:05:00,2025-03-21 01:58:00,us-west-2,switch-core-04,Interface Error Rate High,Low,293,Resolved,2025-03-20,21,Thursday,1
+INC-1065,2025-03-20 21:19:00,2025-03-21 03:19:00,us-east-1,firewall-01,BGP Route Flap,Low,360,Resolved,2025-03-20,21,Thursday,1
+INC-1066,2025-03-20 15:39:00,2025-03-20 16:04:00,eu-west-1,router-02,Firewall CPU Overload,Critical,25,Resolved,2025-03-20,15,Thursday,4
+INC-1067,2025-03-20 06:45:00,2025-03-20 18:34:00,us-west-2,lb-04,Firewall CPU Overload,Low,709,Resolved,2025-03-20,6,Thursday,1
+INC-1068,2025-03-20 22:00:00,2025-03-20 23:53:00,us-west-2,router-04,MTU Mismatch,High,113,Resolved,2025-03-20,22,Thursday,3
+INC-1069,2025-03-20 16:29:00,2025-03-20 18:28:00,eu-west-1,router-02,BGP Route Flap,High,119,Resolved,2025-03-20,16,Thursday,3
+INC-1070,2025-03-21 21:33:00,2025-03-21 23:02:00,us-west-2,switch-core-04,Firewall CPU Overload,High,89,Resolved,2025-03-21,21,Friday,3
+INC-1071,2025-03-21 13:53:00,2025-03-22 00:29:00,eu-central-1,lb-05,Link Down,Low,636,Resolved,2025-03-21,13,Friday,1
+INC-1072,2025-03-22 20:17:00,2025-03-22 21:18:00,us-west-2,lb-04,BGP Route Flap,High,61,Resolved,2025-03-22,20,Saturday,3
+INC-1073,2025-03-22 09:15:00,2025-03-22 13:17:00,ap-southeast-1,switch-core-03,Interface Error Rate High,Medium,242,Resolved,2025-03-22,9,Saturday,2
+INC-1074,2025-03-22 04:09:00,2025-03-22 07:31:00,ap-southeast-1,firewall-03,MTU Mismatch,Low,202,Resolved,2025-03-22,4,Saturday,1
+INC-1075,2025-03-23 10:34:00,2025-03-23 11:10:00,eu-west-1,lb-02,MTU Mismatch,Critical,36,Resolved,2025-03-23,10,Sunday,4
+INC-1076,2025-03-24 18:44:00,2025-03-25 03:22:00,eu-west-1,router-02,MTU Mismatch,Low,518,Resolved,2025-03-24,18,Monday,1
+INC-1077,2025-03-24 09:48:00,2025-03-24 10:20:00,us-west-2,lb-04,MTU Mismatch,Critical,32,Resolved,2025-03-24,9,Monday,4
+INC-1078,2025-03-25 15:14:00,2025-03-25 20:59:00,eu-central-1,switch-core-05,MTU Mismatch,Low,345,Resolved,2025-03-25,15,Tuesday,1
+INC-1079,2025-03-25 21:43:00,2025-03-25 22:14:00,us-west-2,lb-04,Link Down,Critical,31,Resolved,2025-03-25,21,Tuesday,4
+INC-1080,2025-03-25 00:58:00,2025-03-25 12:04:00,us-west-2,lb-04,High Latency Spike,Low,666,Resolved,2025-03-25,0,Tuesday,1
+INC-1081,2025-03-25 14:11:00,2025-03-25 15:45:00,us-east-1,router-01,DDoS Suspected,Medium,94,Resolved,2025-03-25,14,Tuesday,2
+INC-1082,2025-03-25 10:21:00,2025-03-25 13:17:00,us-west-2,lb-04,DDoS Suspected,Medium,176,Resolved,2025-03-25,10,Tuesday,2
+INC-1083,2025-03-25 15:01:00,2025-03-25 15:41:00,us-west-2,router-04,Interface Error Rate High,High,40,Resolved,2025-03-25,15,Tuesday,3
+INC-1084,2025-03-26 00:15:00,2025-03-26 02:56:00,us-east-1,firewall-01,High Latency Spike,Low,161,Resolved,2025-03-26,0,Wednesday,1
+INC-1085,2025-03-26 15:42:00,2025-03-26 16:28:00,eu-central-1,router-05,BGP Route Flap,High,46,Resolved,2025-03-26,15,Wednesday,3
+INC-1086,2025-03-26 11:10:00,2025-03-26 15:26:00,us-west-2,router-04,Link Down,Medium,256,Resolved,2025-03-26,11,Wednesday,2
+INC-1087,2025-03-27 09:36:00,2025-03-27 14:33:00,us-east-1,lb-01,MTU Mismatch,Medium,297,Resolved,2025-03-27,9,Thursday,2
+INC-1088,2025-03-27 03:44:00,2025-03-27 04:09:00,eu-west-1,switch-core-02,Packet Loss Detected,Critical,25,Resolved,2025-03-27,3,Thursday,4
+INC-1089,2025-03-27 17:27:00,2025-03-28 01:22:00,eu-central-1,switch-core-05,Packet Loss Detected,Low,475,Resolved,2025-03-27,17,Thursday,1
+INC-1090,2025-03-27 13:52:00,2025-03-27 14:55:00,eu-central-1,lb-05,Packet Loss Detected,Medium,63,Resolved,2025-03-27,13,Thursday,2
+INC-1091,2025-03-28 14:45:00,2025-03-28 19:17:00,ap-southeast-1,firewall-03,MTU Mismatch,Medium,272,Resolved,2025-03-28,14,Friday,2
+INC-1092,2025-03-28 08:39:00,2025-03-28 12:25:00,eu-west-1,lb-02,Firewall CPU Overload,Medium,226,Resolved,2025-03-28,8,Friday,2
+INC-1093,2025-03-28 10:54:00,2025-03-28 17:28:00,us-west-2,firewall-04,Packet Loss Detected,Low,394,Resolved,2025-03-28,10,Friday,1
+INC-1094,2025-03-28 14:36:00,2025-03-28 20:45:00,ap-southeast-1,lb-03,Interface Error Rate High,Low,369,Resolved,2025-03-28,14,Friday,1
+INC-1095,2025-03-28 05:31:00,2025-03-28 07:54:00,us-east-1,firewall-01,Interface Error Rate High,Medium,143,Resolved,2025-03-28,5,Friday,2
+INC-1096,2025-03-29 22:56:00,2025-03-30 00:42:00,ap-southeast-1,switch-core-03,High Latency Spike,High,106,Resolved,2025-03-29,22,Saturday,3
+INC-1097,2025-03-29 07:46:00,2025-03-29 11:13:00,eu-central-1,lb-05,Firewall CPU Overload,Low,207,Resolved,2025-03-29,7,Saturday,1
+INC-1098,2025-03-30 14:50:00,2025-03-30 17:55:00,us-west-2,router-04,Packet Loss Detected,Medium,185,Resolved,2025-03-30,14,Sunday,2

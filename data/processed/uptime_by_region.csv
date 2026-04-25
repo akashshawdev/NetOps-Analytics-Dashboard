@@ -1,0 +1,6 @@
+region,avg_uptime_pct,min_uptime_pct,devices_meeting_sla,total_devices,total_downtime_hrs,sla_compliance_pct
+ap-southeast-1,99.568,99.395,1,4,12.44,25.0
+eu-central-1,99.356,99.09,0,4,18.52,0.0
+eu-west-1,99.42,99.13,0,4,16.7,0.0
+us-east-1,99.483,99.141,0,4,14.89,0.0
+us-west-2,99.55,99.34,0,4,12.95,0.0
