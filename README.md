@@ -1,6 +1,6 @@
 # NetOps Analytics Dashboard
 
-**End-to-end cloud network operations analytics platform** - monitoring, KPIs, anomaly detection, and reporting across a simulated 5-region AWS/Azure-style infrastructure.
+**End-to-end cloud network operations analytics platform** - monitoring, KPIs, anomaly detection and reporting across a simulated 5-region AWS/Azure-style infrastructure.
 
 ---
 
@@ -9,7 +9,7 @@
 | Layer | What it does |
 |-------|-------------|
 | Data simulation | Generates 30 days of realistic cloud network metrics (latency, packet loss, uptime, incidents) |
-| Processing pipeline | Cleans, enriches, and aggregates raw data into structured CSVs |
+| Processing pipeline | Cleans, enriches and aggregates raw data into structured CSVs |
 | Analytics engine | Computes KPIs, runs Z-score anomaly detection, estimates business impact |
 | Dashboard | Streamlit app + standalone HTML dashboard with charts and interactive filters |
 
