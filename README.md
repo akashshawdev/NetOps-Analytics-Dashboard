@@ -1,6 +1,6 @@
 # NetOps Analytics Dashboard
 
-**End-to-end cloud network operations analytics platform** — monitoring, KPIs, anomaly detection, and reporting across a simulated 5-region AWS/Azure-style infrastructure.
+**End-to-end cloud network operations analytics platform** - monitoring, KPIs, anomaly detection, and reporting across a simulated 5-region AWS/Azure-style infrastructure.
 
 ---
 
@@ -95,9 +95,9 @@ streamlit run dashboard/app.py
 | **Latency (ms)** | Directly impacts user experience. >150ms = SLA breach risk |
 | **Packet loss %** | Indicates congestion or hardware failure. >1% = alert threshold |
 | **Uptime %** | Core SLA metric. Target: 99.9% (enterprise standard) |
-| **MTTR (min)** | Mean Time to Resolve — measures ops team efficiency |
+| **MTTR (min)** | Mean Time to Resolve - measures ops team efficiency |
 | **Health score** | Composite 0–100 score from latency + loss. Used for quick status |
-| **Z-score anomaly** | Flags values >3σ from mean — triggers automated alerts |
+| **Z-score anomaly** | Flags values >3σ from mean - triggers automated alerts |
 
 ---
 
@@ -129,10 +129,10 @@ streamlit run dashboard/app.py
 
 ## Design decisions
 
-1. **No database** — CSV + JSON keeps it portable and beginner-friendly. In production this would be InfluxDB or TimescaleDB.
-2. **Separate pipeline stages** — simulate → process → analyze is modular. Each script can run independently or be replaced.
-3. **Z-score anomaly detection** — simple, explainable, no ML dependencies. Production systems add ML (Isolation Forest, LSTM) on top.
-4. **SLA thresholds hardcoded** — in production these come from a config file or database tied to customer contracts.
+1. **No database** - CSV + JSON keeps it portable and beginner-friendly. In production this would be InfluxDB or TimescaleDB.
+2. **Separate pipeline stages** - simulate → process → analyze is modular. Each script can run independently or be replaced.
+3. **Z-score anomaly detection** - simple, explainable, no ML dependencies. Production systems add ML (Isolation Forest, LSTM) on top.
+4. **SLA thresholds hardcoded** - in production these come from a config file or database tied to customer contracts.
 
 ---
 
